@@ -9,7 +9,7 @@
 
 @implementation Optional
 
-+ (instancetype)unit:(id)value {
++ (id<MonadOperation>)unit:(id)value {
     if (!value) {
         return nil;
     }
@@ -19,7 +19,7 @@
     return optional;
 }
 
-- (instancetype)bind:(MonadBindBlock)block {
+- (id<MonadOperation>)bind:(MonadBindBlock)block {
     if (self.value) {
         return block(self.value);
     }

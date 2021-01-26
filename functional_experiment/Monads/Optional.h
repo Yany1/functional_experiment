@@ -5,10 +5,15 @@
 //  Created by yanyihu on 2021/1/26.
 //
 
-#import "Monad.h"
+#import <Foundation/Foundation.h>
+#import "MonadOperation.h"
 
-@interface Optional : Monad
+@interface Optional : NSObject <MonadOperation>
 
 @property (nonatomic, strong) id value;
+
++ (id<MonadOperation>)unit:(id)value;
+
+- (id<MonadOperation>)bind:(MonadBindBlock)block;
 
 @end

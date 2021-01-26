@@ -16,9 +16,7 @@
 		ABE6683125BFE76600D3DEF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6683025BFE76600D3DEF4 /* main.m */; };
 		ABE6683B25BFE76600D3DEF4 /* functional_experimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6683A25BFE76600D3DEF4 /* functional_experimentTests.m */; };
 		ABE6684625BFE76600D3DEF4 /* functional_experimentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6684525BFE76600D3DEF4 /* functional_experimentUITests.m */; };
-		ABE6685E25BFE99B00D3DEF4 /* Monad.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6685D25BFE99B00D3DEF4 /* Monad.m */; };
 		ABE6686725BFF61900D3DEF4 /* Optional.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6686625BFF61900D3DEF4 /* Optional.m */; };
-		ABE6687025C0064100D3DEF4 /* Array.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6686F25C0064100D3DEF4 /* Array.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,12 +55,9 @@
 		ABE6684125BFE76600D3DEF4 /* functional_experimentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = functional_experimentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE6684525BFE76600D3DEF4 /* functional_experimentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = functional_experimentUITests.m; sourceTree = "<group>"; };
 		ABE6684725BFE76600D3DEF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABE6685C25BFE98E00D3DEF4 /* Monad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Monad.h; sourceTree = "<group>"; };
-		ABE6685D25BFE99B00D3DEF4 /* Monad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Monad.m; sourceTree = "<group>"; };
 		ABE6686525BFF59600D3DEF4 /* Optional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Optional.h; sourceTree = "<group>"; };
 		ABE6686625BFF61900D3DEF4 /* Optional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Optional.m; sourceTree = "<group>"; };
-		ABE6686E25C0063000D3DEF4 /* Array.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Array.h; sourceTree = "<group>"; };
-		ABE6686F25C0064100D3DEF4 /* Array.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Array.m; sourceTree = "<group>"; };
+		ABE6687A25C00A5300D3DEF4 /* MonadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonadOperation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,12 +145,9 @@
 		ABE6685B25BFE97000D3DEF4 /* Monads */ = {
 			isa = PBXGroup;
 			children = (
-				ABE6685C25BFE98E00D3DEF4 /* Monad.h */,
-				ABE6685D25BFE99B00D3DEF4 /* Monad.m */,
+				ABE6687A25C00A5300D3DEF4 /* MonadOperation.h */,
 				ABE6686525BFF59600D3DEF4 /* Optional.h */,
 				ABE6686625BFF61900D3DEF4 /* Optional.m */,
-				ABE6686E25C0063000D3DEF4 /* Array.h */,
-				ABE6686F25C0064100D3DEF4 /* Array.m */,
 			);
 			path = Monads;
 			sourceTree = "<group>";
@@ -291,10 +283,8 @@
 			files = (
 				ABE6682625BFE76600D3DEF4 /* ViewController.m in Sources */,
 				ABE6682025BFE76600D3DEF4 /* AppDelegate.m in Sources */,
-				ABE6687025C0064100D3DEF4 /* Array.m in Sources */,
 				ABE6683125BFE76600D3DEF4 /* main.m in Sources */,
 				ABE6686725BFF61900D3DEF4 /* Optional.m in Sources */,
-				ABE6685E25BFE99B00D3DEF4 /* Monad.m in Sources */,
 				ABE6682325BFE76600D3DEF4 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
