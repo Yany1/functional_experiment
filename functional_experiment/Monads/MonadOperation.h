@@ -16,10 +16,10 @@ typedef id<MonadOperation> (^MonadBindBlock)(id value);
 
 /// 返回一个包裹了value的Monad（单子运算符）对象
 /// @param value 被包裹的值对象
-+ (id<MonadOperation>)unit:(id)value;
++ (id<MonadOperation>)mo_unit:(id)value;
 
 /// 为单子运算符绑定一个函数
 /// @param block 被绑定的block函数
-- (id<MonadOperation>)bind:(MonadBindBlock)block;
+- (id<MonadOperation>)mo_bind:(MonadBindBlock)block;
 
 @end

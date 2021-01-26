@@ -17,6 +17,7 @@
 		ABE6683B25BFE76600D3DEF4 /* functional_experimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6683A25BFE76600D3DEF4 /* functional_experimentTests.m */; };
 		ABE6684625BFE76600D3DEF4 /* functional_experimentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6684525BFE76600D3DEF4 /* functional_experimentUITests.m */; };
 		ABE6686725BFF61900D3DEF4 /* Optional.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6686625BFF61900D3DEF4 /* Optional.m */; };
+		ABE6688F25C02E1900D3DEF4 /* NSArray+MonadOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE6688E25C02E1900D3DEF4 /* NSArray+MonadOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		ABE6686525BFF59600D3DEF4 /* Optional.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Optional.h; sourceTree = "<group>"; };
 		ABE6686625BFF61900D3DEF4 /* Optional.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Optional.m; sourceTree = "<group>"; };
 		ABE6687A25C00A5300D3DEF4 /* MonadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonadOperation.h; sourceTree = "<group>"; };
+		ABE6688D25C02E0400D3DEF4 /* NSArray+MonadOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MonadOperation.h"; sourceTree = "<group>"; };
+		ABE6688E25C02E1900D3DEF4 /* NSArray+MonadOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MonadOperation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,8 @@
 				ABE6687A25C00A5300D3DEF4 /* MonadOperation.h */,
 				ABE6686525BFF59600D3DEF4 /* Optional.h */,
 				ABE6686625BFF61900D3DEF4 /* Optional.m */,
+				ABE6688D25C02E0400D3DEF4 /* NSArray+MonadOperation.h */,
+				ABE6688E25C02E1900D3DEF4 /* NSArray+MonadOperation.m */,
 			);
 			path = Monads;
 			sourceTree = "<group>";
@@ -281,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE6688F25C02E1900D3DEF4 /* NSArray+MonadOperation.m in Sources */,
 				ABE6682625BFE76600D3DEF4 /* ViewController.m in Sources */,
 				ABE6682025BFE76600D3DEF4 /* AppDelegate.m in Sources */,
 				ABE6683125BFE76600D3DEF4 /* main.m in Sources */,

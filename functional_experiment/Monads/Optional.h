@@ -12,8 +12,8 @@
 
 @property (nonatomic, strong) id value;
 
-+ (id<MonadOperation>)unit:(id)value;
++ (Optional *)mo_unit:(id)value;
 
-- (id<MonadOperation>)bind:(MonadBindBlock)block;
+- (Optional *)mo_bind:(Optional * (^)(id value))block;
 
 @end
